@@ -1,0 +1,33 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "nodemon --inspect src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NgoDinhCanh/nodejs_blog.git"
+  },
+  "keywords": [
+    "ndc",
+    "blog"
+  ],
+  "author": "dinhcanh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NgoDinhCanh/nodejs_blog/issues"
+  },
+  "homepage": "https://github.com/NgoDinhCanh/nodejs_blog#readme",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
